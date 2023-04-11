@@ -61,6 +61,12 @@ public class AatCloneAndFinalize {
 *		C c = new C();
 *		B b = new B(); // <new B()> object is unused
 *		b = c;
+*
+*		new Stud(); // if we create this
+*		
+*		protected void finalize() {
+*			Syso("hi"");
+*		} // it'll be executed only when unused object is to be deleted, cuz jvm will call finalize only on this
 */
 	}
 
