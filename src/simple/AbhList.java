@@ -10,7 +10,7 @@ public class AbhList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		ArrayList - unsorted, ordered, duplicate
+//		ArrayList - unsorted, ordered, duplicate, not synchronised, increase 50% of current if exceeds the size.
 //		Collection<Integer> val = new ArrayList<Integer>();
 //		val.add(89);
 //		val.remove(89);

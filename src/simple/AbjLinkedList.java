@@ -6,6 +6,7 @@ public class AbjLinkedList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+//		ArrayList storing & accessing is faster, LinkedList manipulation is faster
 		LinkedList<Integer> val = new LinkedList<>();
 		val.add(6);
 		val.add(7);

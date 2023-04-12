@@ -20,6 +20,7 @@ public class AbcFileIOStream {
 		fis.close();
 		FileOutputStream fos = new FileOutputStream(f);
 		String txt = "Hi there!";
+//		fos.write(txt); // not supported
 		fos.write(txt.getBytes());
 		fos.close();
 	}
